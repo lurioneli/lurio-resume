@@ -268,22 +268,22 @@ function App() {
           <p className="gallery-video-label">Event Moments</p>
           <div className="video-grid">
             <div className="video-item">
-              <video src="./images/IMG_1570.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1570.MOV#t=0.001" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1575.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1575.MOV#t=0.001" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1583.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1583.MOV#t=0.001" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1610.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1610.MOV#t=0.001" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
