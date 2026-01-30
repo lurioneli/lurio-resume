@@ -165,6 +165,20 @@ export const Icons = {
       <path d="M15 8h2M15 11h2M15 14h2M15 17h2" stroke="url(#gradCity)" strokeWidth="1" strokeLinecap="round" opacity="0.6"/>
     </svg>
   ),
+
+  newspaper: (
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="gradNews" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#00d4aa" />
+          <stop offset="100%" stopColor="#00b894" />
+        </linearGradient>
+      </defs>
+      <rect x="3" y="4" width="18" height="16" rx="2" stroke="url(#gradNews)" strokeWidth="1.5" fill="none"/>
+      <path d="M7 8h6M7 12h10M7 16h10" stroke="url(#gradNews)" strokeWidth="1.5" strokeLinecap="round"/>
+      <rect x="15" y="8" width="2" height="2" fill="url(#gradNews)" opacity="0.6"/>
+    </svg>
+  ),
 }
 
 export default Icons

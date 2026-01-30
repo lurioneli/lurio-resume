@@ -366,6 +366,35 @@ function App() {
         </div>
       </section>
 
+      {/* Press Section */}
+      <section className="section press-section">
+        <div className="section-header">
+          <p className="section-label">// In The News</p>
+          <h2 className="section-title">Featured In</h2>
+        </div>
+        <div className="press-grid">
+          <a href="https://ampress.ca/kanada-lurio-neli-mes-torontos-dhe-tiranes-shqiptari-fton-te-rinjte-ne-nismen-albanian-youth/" target="_blank" rel="noopener noreferrer" className="press-card">
+            <div className="press-icon">{Icons.newspaper}</div>
+            <div className="press-content">
+              <div className="press-source">AMPress Canada</div>
+              <h3>Lurio Neli mes Torontos dhe Tiranës</h3>
+              <p className="press-description">
+                Profile on bridging Albanian diaspora communities across North America and inspiring young professionals to embrace cultural identity alongside career success.
+              </p>
+              <div className="press-meta">
+                <span className="press-date">March 2025</span>
+                <span className="press-language">Albanian</span>
+              </div>
+            </div>
+            <div className="press-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" width="20" height="20">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </div>
+          </a>
+        </div>
+      </section>
+
       {/* Additional Info */}
       <section className="section additional-section">
         <div className="section-header">
