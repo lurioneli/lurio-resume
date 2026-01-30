@@ -216,49 +216,49 @@ function App() {
         <p className="gallery-intro">From setup to teardown, from first coffee to last handshake. These are the moments we create at NextGen Professionals.</p>
         <div className="gallery-grid">
           <div className="gallery-item large">
-            <img src="/images/IMG_8616.JPG" alt="NextGen Professionals Conference 2025 - Staff" loading="lazy" />
+            <img src="./images/IMG_8616.JPG" alt="NextGen Professionals Conference 2025 - Staff" loading="lazy" />
             <div className="gallery-overlay">
               <span>NextGen Conference 2025</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_8951.JPG" alt="Conference venue with 800+ attendees" loading="lazy" />
+            <img src="./images/IMG_8951.JPG" alt="Conference venue with 800+ attendees" loading="lazy" />
             <div className="gallery-overlay">
               <span>800+ Attendees</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_8902.JPG" alt="Team photo with speakers and organizers" loading="lazy" />
+            <img src="./images/IMG_8902.JPG" alt="Team photo with speakers and organizers" loading="lazy" />
             <div className="gallery-overlay">
               <span>Speakers & Team</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_9317.JPEG" alt="Panel discussion at networking event" loading="lazy" />
+            <img src="./images/IMG_9317.JPEG" alt="Panel discussion at networking event" loading="lazy" />
             <div className="gallery-overlay">
               <span>Panel Discussion</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_8861.JPG" alt="Coordinating volunteer team" loading="lazy" />
+            <img src="./images/IMG_8861.JPG" alt="Coordinating volunteer team" loading="lazy" />
             <div className="gallery-overlay">
               <span>Team Coordination</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_8872.JPG" alt="Registration desk operations" loading="lazy" />
+            <img src="./images/IMG_8872.JPG" alt="Registration desk operations" loading="lazy" />
             <div className="gallery-overlay">
               <span>Registration Ops</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_2801.JPG" alt="Speaking at Albanian Youth event" loading="lazy" />
+            <img src="./images/IMG_2801.JPG" alt="Speaking at Albanian Youth event" loading="lazy" />
             <div className="gallery-overlay">
               <span>Thursday Think Tank</span>
             </div>
           </div>
           <div className="gallery-item">
-            <img src="/images/IMG_8598.JPG" alt="Event setup" loading="lazy" />
+            <img src="./images/IMG_8598.JPG" alt="Event setup" loading="lazy" />
             <div className="gallery-overlay">
               <span>Event Setup</span>
             </div>
@@ -268,22 +268,22 @@ function App() {
           <p className="gallery-video-label">Event Moments</p>
           <div className="video-grid">
             <div className="video-item">
-              <video src="/images/IMG_1570.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1570.MOV" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="/images/IMG_1575.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1575.MOV" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="/images/IMG_1583.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1583.MOV" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="/images/IMG_1610.MOV" controls muted playsInline preload="metadata">
+              <video src="./images/IMG_1610.MOV" controls muted playsInline preload="metadata">
                 Your browser does not support video.
               </video>
             </div>
