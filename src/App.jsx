@@ -439,7 +439,7 @@ function App() {
             <div className="additional-icon">{Icons.city}</div>
             <div>
               <h4>Home Base</h4>
-              <p>Toronto born and raised. I know this city's venues, its people, and how to get 800 of them in a room.</p>
+              <p>Born in Tirana, moved to Toronto at 11, spent my formative years between both cities. Now full-time in Toronto—I know this city's venues, its people, and how to get 800 of them in a room.</p>
             </div>
           </div>
         </div>
