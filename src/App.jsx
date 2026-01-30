@@ -1,9 +1,33 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import './App.css'
 import { Icons } from './Icons'
 
 function App() {
   const [secretRevealed, setSecretRevealed] = useState(null)
+  const videoRefs = useRef([])
+
+  // Autoplay videos when they come into view
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target
+          if (entry.isIntersecting) {
+            video.play().catch(() => {})
+          } else {
+            video.pause()
+          }
+        })
+      },
+      { threshold: 0.5 }
+    )
+
+    videoRefs.current.forEach((video) => {
+      if (video) observer.observe(video)
+    })
+
+    return () => observer.disconnect()
+  }, [])
   // The story in numbers
   const milestones = [
     { year: "2024", event: "First Conference", number: "300", label: "attendees" },
@@ -268,22 +292,22 @@ function App() {
           <p className="gallery-video-label">Event Moments</p>
           <div className="video-grid">
             <div className="video-item">
-              <video src="./images/IMG_1570.MOV#t=0.001" controls muted playsInline preload="metadata">
+              <video ref={el => videoRefs.current[0] = el} src="./images/IMG_1570.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1575.MOV#t=0.001" controls muted playsInline preload="metadata">
+              <video ref={el => videoRefs.current[1] = el} src="./images/IMG_1575.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1583.MOV#t=0.001" controls muted playsInline preload="metadata">
+              <video ref={el => videoRefs.current[2] = el} src="./images/IMG_1583.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video src="./images/IMG_1610.MOV#t=0.001" controls muted playsInline preload="metadata">
+              <video ref={el => videoRefs.current[3] = el} src="./images/IMG_1610.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
                 Your browser does not support video.
               </video>
             </div>
