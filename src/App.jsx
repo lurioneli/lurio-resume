@@ -292,22 +292,22 @@ function App() {
           <p className="gallery-video-label">Event Moments</p>
           <div className="video-grid">
             <div className="video-item">
-              <video ref={el => videoRefs.current[0] = el} src="./images/IMG_1570.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
+              <video ref={el => videoRefs.current[0] = el} src="./images/IMG_1570.MOV#t=0.001" muted playsInline preload="auto" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video ref={el => videoRefs.current[1] = el} src="./images/IMG_1575.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
+              <video ref={el => videoRefs.current[1] = el} src="./images/IMG_1575.MOV#t=0.001" muted playsInline preload="auto" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video ref={el => videoRefs.current[2] = el} src="./images/IMG_1583.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
+              <video ref={el => videoRefs.current[2] = el} src="./images/IMG_1583.MOV#t=0.001" muted playsInline preload="auto" loop>
                 Your browser does not support video.
               </video>
             </div>
             <div className="video-item">
-              <video ref={el => videoRefs.current[3] = el} src="./images/IMG_1610.MOV#t=0.001" controls muted playsInline preload="metadata" loop>
+              <video ref={el => videoRefs.current[3] = el} src="./images/IMG_1610.MOV#t=0.001" muted playsInline preload="auto" loop>
                 Your browser does not support video.
               </video>
             </div>
